@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* did vh 130 to style the bg picture with a tags(so green leaf is under the Dinner Menu) */
+header {
+    background-image: url(images/ash-edmonds-fsI-_MRsic0-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+
+.bar-name {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 3rem;
+    font-size: 6rem;
+    padding-bottom: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size: 2rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.about-us {
+    margin-top: 3rem;
+}
+
+.header-about,
+.contact {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-us-content {
+    display: flex;
+
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+p {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.contactUs {
+    margin: 3rem 0;
+}
+
+.contact-us-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form {
+    margin: 0 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+input,
+textarea {
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 50px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: lightgray;
+    height: 100px;
+}
+
+i {
+    /* padding-top: 3rem; */
+    font-size: 2rem;
+    margin: 40px 40px 0 40px;
+}
+
+.icon {
+    color: black;
+}
