@@ -1,4 +1,4 @@
-# coctail
+# cocktail
 
 
 Project was made with working with given data.
