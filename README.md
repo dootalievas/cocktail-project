@@ -1,4 +1,4 @@
-# cocktail
+# cocktail-project
 
 
 Project was made with working with given data.
